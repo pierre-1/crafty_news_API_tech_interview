@@ -1,24 +1,24 @@
-# README
+# Comments Challenge
+You are challenged to implement a feature for the Crafty News API.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Title: "User can comment on an article"
 
-Things you may want to cover:
+User story:
+```
+As a User
+In order to voice my opinion on an article
+I would like to be able to leave a comment
+``` 
+Tasks:
+- [ ] Write request spec
+- [ ] Add comment model
+- [ ] Comment needs to contain a body
+- [ ] Add association between comment and article
+- [ ] Only authenticated user can comment, add user model with devise token auth
+- [ ] Add association between comment and user
 
-* Ruby version
 
-* System dependencies
+You need to fork the repository and clone the forked repository to your computer. Then you need to branch off from the development branch. When you feel that you are done, you need to create a pull request towards the upstream repository. Make sure that the PR contains the correct information. The user story and what changes that are proposed in the PR.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Good luck!
